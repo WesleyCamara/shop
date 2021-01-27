@@ -1,0 +1,15 @@
+[0126/073158.088:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0126/091216.034:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.034:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.035:ERROR:exception_snapshot_win.cc(99)] thread ID 12972 not found in process
+[0126/091216.035:ERROR:exception_snapshot_win.cc(99)] thread ID 6248 not found in process
+[0126/091216.037:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.037:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.037:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.037:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.046:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0126/091216.074:ERROR:exception_snapshot_win.cc(99)] thread ID 14544 not found in process
+[0126/091216.074:ERROR:exception_snapshot_win.cc(99)] thread ID 14080 not found in process
+[0126/091216.074:ERROR:exception_snapshot_win.cc(99)] thread ID 21912 not found in process
+[0126/091216.074:ERROR:exception_snapshot_win.cc(99)] thread ID 6776 not found in process
+[0126/091216.074:ERROR:exception_snapshot_win.cc(99)] thread ID 3432 not found in process

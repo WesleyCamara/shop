@@ -15,6 +15,9 @@
   --line-height-title: 1.5rem;
   --line-height-text: 1.5rem;
   --line-height-detail: 1.125rem;
+
+  --shadow-dark: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body {

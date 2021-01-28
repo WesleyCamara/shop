@@ -8,7 +8,7 @@
 .form input {
   display: block;
   padding: 0.75rem;
-  box-shadow: 0 0 3px #707070;
+  box-shadow: var(--shadow-dark);
   border-radius: 7px;
 }
 
@@ -17,6 +17,6 @@
   place-items: center;
   background: var(--color-dark);
   border-radius: 7px;
-  box-shadow: 0 0 3px #707070;
+  box-shadow: var(--shadow-dark);
   padding: 0;
 }

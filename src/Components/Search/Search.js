@@ -7,7 +7,7 @@ export const Search = () => {
     <form className={styles.form}>
       <input placeholder="Pesquisar" />
       <button>
-        <img src={searchIcon} className={styles.searchIcon} />
+        <img src={searchIcon} alt="Pesquisar" className={styles.searchIcon} />
       </button>
     </form>
   );

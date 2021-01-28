@@ -13,14 +13,16 @@ export const Menu = () => {
         <span
           className={`${styles.hamburger} ${expandedMenu && styles.expanded}`}
         ></span>
+        {expandedMenu && (
+          <ul className={styles.menuItems}>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum </li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+          </ul>
+        )}
       </nav>
-      <ul className={styles.menuItems}>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-        <li>d</li>
-        <li>e</li>
-      </ul>
     </>
   );
 };

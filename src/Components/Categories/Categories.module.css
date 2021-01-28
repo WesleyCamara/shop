@@ -1,0 +1,26 @@
+.categories {
+  display: flex;
+  overflow-y: scroll;
+  margin-top: 2.5rem;
+}
+
+.categories li {
+  margin: 1rem 0.5rem;
+  text-align: center;
+}
+
+.categoriesItem > div {
+  display: grid;
+  place-items: center;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0 8px #707070;
+  border-radius: 7px;
+}
+
+.categoriesItem > span {
+  display: inline-block;
+  font-size: var(--font-size-detail);
+  line-height: var(--line-height-detail);
+  margin-top: 0.5rem;
+}

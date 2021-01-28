@@ -1,0 +1,22 @@
+.form {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.form input {
+  display: block;
+  padding: 0.75rem;
+  box-shadow: 0 0 3px #707070;
+  border-radius: 7px;
+}
+
+.form button {
+  display: grid;
+  place-items: center;
+  background: var(--color-dark);
+  border-radius: 7px;
+  box-shadow: 0 0 3px #707070;
+  padding: 0;
+}

@@ -4,8 +4,11 @@
   --color-background: #fff;
   --color-primary: #707070;
   --color-secondary: #f2e6e6;
+  --color-dark: #222;
+  --color-light: #fff;
 
-  --font-size-title: 1.5rem;
+  --font-size-page: 1.5rem;
+  --font-size-title: 1.125rem;
   --font-size-text: 1rem;
   --font-size-detail: 0.75rem;
 

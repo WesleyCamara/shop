@@ -1,7 +1,13 @@
+.categoriesTitle {
+  font-size: var(--font-size-title);
+  margin: 1rem;
+  color: var(--color-primary);
+}
+
 .categories {
   display: flex;
   overflow-y: scroll;
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
 }
 
 .categories li {

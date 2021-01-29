@@ -1,9 +1,8 @@
 .categoriesTitle {
   font-size: var(--font-size-title);
   margin: 1rem;
-  margin-top: 2rem;
-
-  color: var(--color-primary);
+  margin-top: 3rem;
+  color: var(--color-dark);
 }
 
 .categories {
@@ -30,5 +29,6 @@
   display: inline-block;
   font-size: var(--font-size-detail);
   line-height: var(--line-height-detail);
+  color: var(--color-dark);
   margin-top: 0.5rem;
 }

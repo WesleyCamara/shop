@@ -1,0 +1,45 @@
+.filtersWrapper {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  align-content: center;
+  margin: 2rem auto;
+}
+
+.title {
+  margin: 0 1rem;
+  color: var(--color-dark);
+  justify-self: end;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.product {
+  display: grid;
+  justify-items: center;
+  border-radius: 7px;
+  box-shadow: var(--shadow-dark);
+  color: var(--color-dark);
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin: 1.5rem;
+}
+
+.product h4 {
+  font-size: var(--font-size-text);
+}
+
+.product p {
+  font-size: var(--font-size-title);
+  line-height: calc(var(--font-size-title) * 2);
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}

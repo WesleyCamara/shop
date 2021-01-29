@@ -1,0 +1,8 @@
+.footer {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 15vh;
+  background: var(--color-light);
+  color: var(--color-primary);
+}

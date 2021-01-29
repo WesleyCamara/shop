@@ -3,13 +3,15 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: start;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .h1 {
   grid-column: 2;
   justify-self: center;
   font-size: var(--font-size-page);
+  line-height: var(--font-size-page);
+  color: var(--color-dark);
   text-transform: uppercase;
 }
 

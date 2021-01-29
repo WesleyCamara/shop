@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
 :root {
-  --color-background: #fff;
-  --color-primary: #707070;
-  --color-secondary: #f2e6e6;
-  --color-dark: #222;
-  --color-light: #fff;
+  --color-background: #f2f2f2;
+  --color-primary: #023e73;
+  --color-secondary: #3d46f2;
+  --color-dark: #012840;
+  --color-soft: #5c73f2;
+  --color-light: #b6b9f2;
 
   --font-size-page: 1.5rem;
   --font-size-title: 1.125rem;
@@ -16,8 +17,7 @@
   --line-height-text: 1.5rem;
   --line-height-detail: 1.125rem;
 
-  --shadow-dark: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --shadow-dark: 0 4px 8px 0 #d9d9d9, 0 6px 20px 0 #d9d9d9;
 }
 
 body {
@@ -28,4 +28,10 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+@media (max-width: 23rem) {
+  .container {
+    width: 98%;
+  }
 }

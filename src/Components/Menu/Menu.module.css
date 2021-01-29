@@ -54,10 +54,15 @@
 }
 
 .expanded.menu {
-  background: var(--color-secondary);
+  background: var(--color-light);
+  /* background: linear-gradient(180deg, var(--color-light), var(--color-soft)); */
+
   position: absolute;
   width: 200px;
-  height: calc(100vh - 1rem);
+  height: calc(50vh);
+  border-radius: 7px;
+  opacity: 0.95;
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   z-index: 1;
 }
 

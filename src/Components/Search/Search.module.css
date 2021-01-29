@@ -15,7 +15,7 @@
 .form button {
   display: grid;
   place-items: center;
-  background: var(--color-dark);
+  background: var(--color-primary);
   border-radius: 7px;
   box-shadow: var(--shadow-dark);
   padding: 0;

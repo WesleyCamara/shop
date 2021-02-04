@@ -1,12 +1,12 @@
 .menu {
   position: absolute;
-  background: var(--color-background);
   width: 1rem;
   height: 1rem;
   box-shadow: 0 0 0 0 var(--color-background), 0 0 0 0 var(--color-background);
   cursor: pointer;
   transition: 0.2s;
   z-index: 1;
+  padding: 1.1rem;
 }
 
 .hamburger {
@@ -15,7 +15,6 @@
   width: 1rem;
   height: 0.125rem;
   margin-top: 7px;
-
   position: relative;
   transition: 0.5s ease-in-out;
 }
@@ -54,13 +53,10 @@
 }
 
 .expanded.menu {
-  background: var(--color-light);
-  /* background: linear-gradient(180deg, var(--color-light), var(--color-soft)); */
-
+  background: var(--color-secondary-soft);
   position: absolute;
   width: 200px;
-  height: calc(50vh);
-  border-radius: 7px;
+  height: calc(100vh);
   opacity: 0.95;
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   z-index: 1;

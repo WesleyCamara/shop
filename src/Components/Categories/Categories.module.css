@@ -2,7 +2,7 @@
   font-size: var(--font-size-title);
   margin: 1rem;
   margin-top: 3rem;
-  color: var(--color-dark);
+  color: var(--color-primary-dark);
 }
 
 .categories {
@@ -29,6 +29,6 @@
   display: inline-block;
   font-size: var(--font-size-detail);
   line-height: var(--line-height-detail);
-  color: var(--color-dark);
+  color: var(--color-primary-dark);
   margin-top: 0.5rem;
 }

@@ -8,7 +8,7 @@ import { Search } from '../Components/Search/Search';
 export const Home = () => {
   return (
     <>
-      <div className="container">
+      <div >
         <Header />
         <Search />
         <Categories />

@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: start;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .h1 {
@@ -11,11 +11,14 @@
   justify-self: center;
   font-size: var(--font-size-page);
   line-height: var(--font-size-page);
-  color: var(--color-dark);
+  color: var(--color-primary-dark);
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 .cart {
   width: 1.5rem;
   justify-self: end;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }

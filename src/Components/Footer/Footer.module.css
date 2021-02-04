@@ -3,6 +3,6 @@
   display: grid;
   place-items: center;
   height: 15vh;
-  background: var(--color-light);
+  background: var(--color-secondary-soft);
   color: var(--color-primary);
 }

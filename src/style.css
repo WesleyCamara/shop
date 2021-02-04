@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
 :root {
-  --color-background: #f2f2f2;
+  --color-background: #e4e9ed;
+
   --color-primary: #023e73;
-  --color-secondary: #3d46f2;
-  --color-dark: #012840;
-  --color-soft: #5c73f2;
-  --color-light: #829FD9;
+  --color-primary-soft: #0060d0;
+  --color-primary-dark: #012840;
+
+  --color-secondary: #ff7f1e;
+  --color-secondary-soft: #ff9930;
+  --color-secondary-dark: #ff530b;
+
+  --color-detail: #cb1a06;
 
   --font-size-page: 1.5rem;
   --font-size-title: 1.125rem;
@@ -17,18 +22,16 @@
   --line-height-text: 1.5rem;
   --line-height-detail: 1.125rem;
 
-  --shadow-light: 0 4px 8px 0 #d9d9d9, 0 6px 20px 0 #d9d9d9;
-  --shadow-dark: 0 2px 6px 0 rgb(83, 83, 83), 0 2px 6px 0 rgb(83, 83, 83);
-
+  --shadow-light: 0 4px 8px 0 #e4e9ed, 0 6px 20px 0 #e4e9ed;
+  --shadow-dark: 0 4px 8px 0 #434d59, 0 6px 20px 0 #434d59;
 }
 
 body {
   font-family: 'Rubik', sans-serif;
-  padding-top: 1rem;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 

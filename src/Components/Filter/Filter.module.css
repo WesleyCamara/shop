@@ -7,28 +7,25 @@
   height: 2.5rem;
   border-radius: 7px;
   cursor: pointer;
-  transition: .3s;
-
+  transition: 0.3s;
 }
 
-.filters{
+.filters {
   border-radius: 7px;
   padding: 0 1rem;
-  margin: .3125rem 1rem ;
+  margin: 0.3125rem 1rem;
   position: absolute;
-  box-shadow: var(--shadow-light);
+  /* box-shadow: var(--shadow-light); */
   left: 0;
-  background: var(--color-light);
+  background: var(--color-secondary-soft);
   width: calc(100% - 2rem);
   z-index: 2;
 }
 
-.filters li{ 
+.filters li {
   margin: 1rem 0;
 }
-
 
 .expanded.box {
   transform: rotate(180deg);
 }
-

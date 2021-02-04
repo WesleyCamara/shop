@@ -21,7 +21,7 @@
   place-items: center;
   width: 6rem;
   height: 6rem;
-  box-shadow: var(--shadow-dark);
+  box-shadow: var(--shadow-light);
   border-radius: 7px;
 }
 

@@ -10,7 +10,7 @@ export const Header = () => {
     <header className={styles.header}>
       <Menu className={styles.menu} />
       <h1 className={styles.h1}>Home</h1>
-      <Cart className={styles.cart} />
+      {/* <Cart className={styles.cart} /> */}
     </header>
   );
 };

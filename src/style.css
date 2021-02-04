@@ -6,7 +6,7 @@
   --color-secondary: #3d46f2;
   --color-dark: #012840;
   --color-soft: #5c73f2;
-  --color-light: #b6b9f2;
+  --color-light: #829FD9;
 
   --font-size-page: 1.5rem;
   --font-size-title: 1.125rem;
@@ -17,7 +17,9 @@
   --line-height-text: 1.5rem;
   --line-height-detail: 1.125rem;
 
-  --shadow-dark: 0 4px 8px 0 #d9d9d9, 0 6px 20px 0 #d9d9d9;
+  --shadow-light: 0 4px 8px 0 #d9d9d9, 0 6px 20px 0 #d9d9d9;
+  --shadow-dark: 0 2px 6px 0 rgb(83, 83, 83), 0 2px 6px 0 rgb(83, 83, 83);
+
 }
 
 body {
@@ -33,5 +35,11 @@ body {
 @media (max-width: 23rem) {
   .container {
     width: 98%;
+  }
+}
+
+@media (min-width: 48rem) {
+  .container {
+    width: 85%;
   }
 }

@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: start;
-  /* padding: 1rem; */
+
 }
 
 .h1 {
@@ -21,4 +21,14 @@
   justify-self: end;
   margin-top: 1rem;
   margin-right: 1rem;
+}
+
+
+@media (min-width: 767px){
+  .h1{
+    margin-top: 3rem;
+  }
+  .cart{
+    margin-right: 2vw;
+    margin-top: 3rem;}
 }

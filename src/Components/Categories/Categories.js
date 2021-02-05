@@ -4,10 +4,11 @@ import apple from '../../assets/img/apple.webp';
 
 export const Categories = () => {
   return (
-    <section>
+    <section className={styles.categoriesWrapper}>
       <h1 className={styles.categoriesTitle}>Categorias</h1>
       <nav>
         <ul className={styles.categories}>
+          
           <li className={styles.categoriesItem}>
             <div>
               <img src={apple} alt="" />

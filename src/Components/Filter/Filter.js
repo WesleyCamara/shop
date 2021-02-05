@@ -3,7 +3,7 @@ import { ReactComponent as FilterIcon } from '../../assets/img/filter.svg';
 import styles from './Filter.module.css';
 
 export const Filter = () => {
-  const [expandedFilter, setExpandedFilter] = useState(false);
+  const [expandedFilter, setExpandedFilter] = useState(true);
 
 
   return (<>

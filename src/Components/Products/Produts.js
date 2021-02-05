@@ -12,13 +12,17 @@ export const Produts = () => {
 
 
       <div className={styles.filtersWrapper}>
+        <div className={styles.titleWrapper}>
         <h4 className={styles.title}>Ordenar por:</h4>
+        <div  className={styles.order}>
         <Order />
+        </div>
+        </div>
+        <Filter />
+  
       </div>
 
-      <div className={styles.filter}>
-        <Filter />
-      </div>
+    
 
   
       

@@ -32,3 +32,19 @@
   color: var(--color-primary-dark);
   margin-top: 0.5rem;
 }
+
+
+@media (min-width: 767px){
+  .categoriesWrapper{
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+  }
+
+    .categories {
+      overflow-y: inherit;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+}

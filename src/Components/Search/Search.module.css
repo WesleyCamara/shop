@@ -12,6 +12,10 @@
   border-radius: 7px;
 }
 
+.form input:focus{
+  outline-color: var(--color-secondary-soft)
+}
+
 .form button {
   display: grid;
   place-items: center;
@@ -19,4 +23,19 @@
   border-radius: 7px;
   box-shadow: var(--shadow-light);
   padding: 0;
+}
+
+
+@media (min-width: 767px){
+  .form {
+    grid-template-columns: 1fr 30vw 50px 1fr;
+    margin-top: 2rem;
+  }
+
+  .form input {
+    grid-column: 2;
+  }
+  .form button {
+    grid-column: 3;
+  }
 }

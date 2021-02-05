@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Menu.module.css';
 
 export const Menu = () => {
-  const [expandedMenu, setExpandedMenu] = useState(true);
+  const [expandedMenu, setExpandedMenu] = useState(false);
 
   return (
     <>

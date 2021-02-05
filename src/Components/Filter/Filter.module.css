@@ -7,19 +7,16 @@
   height: 2.5rem;
   border-radius: 7px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s ease-out;
 }
 
 .filters {
   border-radius: 7px;
   padding: 0 1rem;
-  margin: 0.3125rem 1rem;
-  position: absolute;
-  /* box-shadow: var(--shadow-light); */
-  left: 0;
+  margin: 0.3125rem 0;
   background: var(--color-secondary-soft);
-  width: calc(100% - 2rem);
-  z-index: 2;
+  width: 100%;
+  z-index: 1;
 }
 
 .filters li {
